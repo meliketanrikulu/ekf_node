@@ -34,7 +34,7 @@ private:
 
     VectorXd state_;
     MatrixXd P_, Q_, R_pose_, R_imu_, I_;
-    rclcpp::Time last_time_;  // Değişiklik: Zaman değişkeni eklendi
+    rclcpp::Time last_time_;
 
     double L_; // Wheelbase of the vehicle (aracın dingil mesafesi)
 };
